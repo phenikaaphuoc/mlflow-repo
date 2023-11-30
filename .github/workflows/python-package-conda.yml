@@ -8,6 +8,6 @@ jobs:
     steps:
     - name: Add conda to system path
       run: |
-        echo ${{secret.MLFLOW_TRACKING_URI}} >> $GITHUB_PATH
+        echo siuu 
     
 
