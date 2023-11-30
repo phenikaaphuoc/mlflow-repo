@@ -8,6 +8,6 @@ jobs:
     steps:
     - name: Add conda to system path
       run: |
-        echo siuu 
+        echo siuu > README.md
     
 
