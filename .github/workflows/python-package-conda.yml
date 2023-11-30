@@ -1,0 +1,13 @@
+name: Python Package using Conda
+
+on: [push]
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Add conda to system path
+      run: |
+        echo siuu > README.md
+    
+
